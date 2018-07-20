@@ -20,6 +20,14 @@ https://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-
     git push origin master
     # push the commits in the local branch named master to the remote named origin
 
+## Head
+
+A head is simply a reference to a commit object.
+“HEAD” (uppercase) refers exclusively to the currently active head.
+
+    $ cat .git/HEAD
+    ref: refs/heads/master
+
 # References
 
 http://marklodato.github.io/visual-git-guide/index-en.html
