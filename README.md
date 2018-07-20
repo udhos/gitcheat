@@ -10,6 +10,12 @@
 
 git add - “add precisely this content to the next commit”
 
+## Diff
+
+git diff: to see what is still unstaged
+
+git diff --cached: to see what you’ve staged so far (--staged and --cached are synonyms)
+
 ## Commit
 
 git commit "records changes to the repository".
