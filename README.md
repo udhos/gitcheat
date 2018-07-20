@@ -1,5 +1,11 @@
 # gitcheat
 
+## Config
+
+    git config --global user.name udhos
+    git config --global user.email udhos
+    git config -l
+
 ## Commit
 
 git commit "records changes to the repository".
