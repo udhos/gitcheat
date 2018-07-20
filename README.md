@@ -2,6 +2,8 @@
 
 ## Commit
 
+git commit "records changes to the repository".
+
 ![commit](img/commit.png)
 
 ## Remote
@@ -21,5 +23,7 @@ https://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-
 # References
 
 http://marklodato.github.io/visual-git-guide/index-en.html
+
+https://blog.osteele.com/2008/05/my-git-workflow/
 
 https://git-scm.com/book/en/v2
