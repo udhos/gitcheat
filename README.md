@@ -6,6 +6,10 @@
     git config --global user.email udhos
     git config -l
 
+## Add
+
+git add - “add precisely this content to the next commit”
+
 ## Commit
 
 git commit "records changes to the repository".
