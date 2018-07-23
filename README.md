@@ -169,6 +169,10 @@ Show branches:
 
     git branch -a
 
+Show last commit from every branch:
+
+    git branch -v
+
 Create branch:
 
     git branch testing
