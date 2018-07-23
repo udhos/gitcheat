@@ -91,6 +91,10 @@ Example:
     git fetch pb = fetch all the information that Paul has but that you don’t yet have in your repository
     Paul’s master branch is now accessible locally as pb/master
 
+### Inspecting remote
+
+    git remote show <remote>
+
 ## Fetch
 
     git fetch <remote>
@@ -98,6 +102,12 @@ Example:
 "The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time."
 
 "git fetch command only downloads the data to your local repository - it doesn’t automatically merge it with any of your work or modify what you’re currently working on."
+
+## Push
+
+Push your work upstream.
+
+    git push <remote> <branch>
 
 ## Head
 
