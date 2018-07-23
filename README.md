@@ -8,6 +8,12 @@
     git config --global user.email udhos
     git config -l
 
+## Clone
+
+    git clone
+
+"by default, the git clone command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called) on the server you cloned from. Running git pull generally fetches data from the server you originally cloned from and automatically tries to merge it into the code you’re currently working on."
+
 ## Index / Staging Area
 
 "Staged means that you have marked a modified file in its current version to go into your next commit snapshot."
@@ -84,6 +90,14 @@ Example:
     git remote add pb https://github.com/paulboone/ticgit
     git fetch pb = fetch all the information that Paul has but that you don’t yet have in your repository
     Paul’s master branch is now accessible locally as pb/master
+
+## Fetch
+
+    git fetch <remote>
+
+"The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time."
+
+"git fetch command only downloads the data to your local repository - it doesn’t automatically merge it with any of your work or modify what you’re currently working on."
 
 ## Head
 
