@@ -52,6 +52,11 @@ git commit --amend: redo the last commit
 
 git log "lists the commits made in that repository in reverse chronological order"
 
+## Unstage
+
+git add CONTRIBUTING.md - add CONTRIBUTING.md to stage/index
+git reset HEAD CONTRIBUTING.md - remove CONTRIBUTING.md from stage/index
+
 ## Remote
 
 Remote is a pointer to a remote repository URL.
