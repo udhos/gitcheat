@@ -181,6 +181,10 @@ Create and switch to branch:
 
     git checkout -b <branch>
 
+Delete branch:
+
+    git branch -d <branch>
+
 Show divergent history:
 
     git log --oneline --decorate --graph --all
