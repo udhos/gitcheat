@@ -189,6 +189,13 @@ Show divergent history:
 
     git log --oneline --decorate --graph --all
 
+## Merge
+
+Basic merge:
+
+    git checkout master
+    git merge <branch>
+
 ## Head
 
 A head is simply a reference to a commit object.
