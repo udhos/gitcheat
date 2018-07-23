@@ -8,9 +8,15 @@
     git config --global user.email udhos
     git config -l
 
+## Index / Staging Area
+
+"Staged means that you have marked a modified file in its current version to go into your next commit snapshot."
+
+git add - "add this content to staging area". The staging area is the full content for the next commit.
+
 ## Add
 
-git add - “add precisely this content to the next commit”
+git add - "add precisely this content to the next commit"
 
 "Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part"
 
