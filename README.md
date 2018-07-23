@@ -177,6 +177,10 @@ Switch to branch: Switching branches changes files in your working directory
 
     git checkout testing
 
+Show divergent history:
+
+    git log --oneline --decorate --graph --all
+
 ## Head
 
 A head is simply a reference to a commit object.
