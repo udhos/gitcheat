@@ -119,6 +119,42 @@ Push your work upstream.
 
     git push <remote> <branch>
 
+## Tag
+
+List tags:
+
+    git tag
+
+Show tag:
+
+    git show v1.4
+
+Annotated tag:
+
+    git tag -a v1.4 -m "my version 1.4"
+
+Lightweight tag:
+
+    git tag v1.4-lw
+
+Tagging specific commit:
+
+    git tag -a v1.2 9fceb02
+
+Sharing specific tag:
+
+    git push origin <tagname>
+
+Sharing all tags:
+
+    git push origin --tags
+
+### Checking out tag
+
+    git checkout v2.0.0 ;# Puts repository in "detached HEAD" state
+
+    git checkout -b version2 v2.0.0 ;# Create branch version2 based on tag v2.0.0
+
 ## Head
 
 A head is simply a reference to a commit object.
