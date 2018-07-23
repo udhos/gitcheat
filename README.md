@@ -65,6 +65,8 @@ git checkout -- CONTRIBUTING.md - retrieve file from last commit, discarding cha
 
 Remote is a pointer to a remote repository URL.
 
+    git remote add <shortname> <url>
+
 "you should at least see origin - that is the default name Git gives to the server you cloned from"
 
     $ git remote -v
@@ -76,6 +78,12 @@ https://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-
 
     git push origin master
     # push the commits in the local branch named master to the remote named origin
+
+Example:
+
+    git remote add pb https://github.com/paulboone/ticgit
+    git fetch pb = fetch all the information that Paul has but that you don’t yet have in your repository
+    Paul’s master branch is now accessible locally as pb/master
 
 ## Head
 
