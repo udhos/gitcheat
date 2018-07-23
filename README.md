@@ -200,6 +200,11 @@ Basic merge:
     git checkout master
     git merge <branch>
 
+"The useful --merged and --no-merged options can filter this list to branches that you have or have not yet merged into the branch you’re currently on."
+
+    git branch --merged    ;# which branches are already merged into the branch you’re on
+    git branch --no-merged ;# branches that contain work you haven’t yet merged in
+
 ## Head
 
 A head is simply a reference to a commit object.
