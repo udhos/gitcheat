@@ -65,6 +65,8 @@ git checkout -- CONTRIBUTING.md - retrieve file from last commit, discarding cha
 
 Remote is a pointer to a remote repository URL.
 
+"you should at least see origin - that is the default name Git gives to the server you cloned from"
+
     $ git remote -v
     origin  https://github.com/udhos/gitcheat (fetch)
     origin  https://github.com/udhos/gitcheat (push)
