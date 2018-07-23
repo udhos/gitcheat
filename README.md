@@ -62,8 +62,8 @@ git log "lists the commits made in that repository in reverse chronological orde
 
 ## Unstage
 
-git add CONTRIBUTING.md - add CONTRIBUTING.md to stage/index
-git reset HEAD CONTRIBUTING.md - remove CONTRIBUTING.md from stage/index
+    git add CONTRIBUTING.md        - add CONTRIBUTING.md to stage/index
+    git reset HEAD CONTRIBUTING.md - remove CONTRIBUTING.md from stage/index
 
 ## Discard changes in working directory
 
