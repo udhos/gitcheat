@@ -57,6 +57,10 @@ git log "lists the commits made in that repository in reverse chronological orde
 git add CONTRIBUTING.md - add CONTRIBUTING.md to stage/index
 git reset HEAD CONTRIBUTING.md - remove CONTRIBUTING.md from stage/index
 
+## Discard changes in working directory
+
+git checkout -- CONTRIBUTING.md - retrieve file from last commit, discarding changes in the working directory
+
 ## Remote
 
 Remote is a pointer to a remote repository URL.
