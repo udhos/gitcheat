@@ -204,6 +204,11 @@ A head is simply a reference to a commit object.
     $ cat .git/HEAD
     ref: refs/heads/master
 
+"Notice the * character that prefixes the master branch: it indicates the branch that you currently have checked out (i.e., the branch that HEAD points to). This means that if you commit at this point, the master branch will be moved forward with your new work."
+
+    git branch
+    * master
+
 # References
 
 http://marklodato.github.io/visual-git-guide/index-en.html
