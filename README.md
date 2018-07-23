@@ -1,5 +1,7 @@
 # gitcheat
 
+![commit](img/commit.png)
+
 ## Config
 
     git config --global user.name udhos
@@ -9,6 +11,14 @@
 ## Add
 
 git add - “add precisely this content to the next commit”
+
+"Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part"
+
+## Rm
+
+git rm - remove file from working directory and also from staging area
+
+git rm --cached - keep file in working directory but remove it from staging area
 
 ## Diff
 
@@ -20,7 +30,11 @@ git diff --cached: to see what you’ve staged so far (--staged and --cached are
 
 git commit "records changes to the repository".
 
-![commit](img/commit.png)
+"Git thinks about its data more like a stream of snapshots."
+
+git commit appends a new snapshot into the stream.
+
+"Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part"
 
 ## Remote
 
