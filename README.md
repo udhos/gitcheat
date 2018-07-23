@@ -177,6 +177,10 @@ Switch to branch: Switching branches changes files in your working directory
 
     git checkout testing
 
+Create and switch to branch:
+
+    git checkout -b <branch>
+
 Show divergent history:
 
     git log --oneline --decorate --graph --all
