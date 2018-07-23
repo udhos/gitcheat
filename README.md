@@ -42,6 +42,12 @@ git commit appends a new snapshot into the stream.
 
 "Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part"
 
+git commit --amend: redo the last commit
+
+    git commit -m 'message'
+    git add forgotten_file
+    git commit --amend
+
 ## Log
 
 git log "lists the commits made in that repository in reverse chronological order"
