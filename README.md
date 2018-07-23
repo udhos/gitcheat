@@ -97,6 +97,14 @@ Example:
 
     git remote show <remote>
 
+### Renaming remote
+
+    git remote rename <old> <new>
+
+### Deleting remote
+
+    git remote rm <remote>
+
 ## Fetch
 
     git fetch <remote>
