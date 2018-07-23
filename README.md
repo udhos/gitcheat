@@ -10,9 +10,11 @@
 
 ## Clone
 
-    git clone
+    git clone <url>
 
 "by default, the git clone command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called) on the server you cloned from. Running git pull generally fetches data from the server you originally cloned from and automatically tries to merge it into the code you’re currently working on."
+
+Git clone by default creates a remote called origin: "you should at least see origin - that is the default name Git gives to the server you cloned from"
 
 ## Index / Staging Area
 
