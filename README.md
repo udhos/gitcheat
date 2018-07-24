@@ -6,7 +6,7 @@
 
     git config --global user.name udhos
     git config --global user.email udhos
-    git config --global credential.helper cache
+    git config --global credential.helper 'cache --timeout 3600'
     git config -l
 
 ## Clone
