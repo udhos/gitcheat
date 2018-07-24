@@ -6,6 +6,7 @@
 
     git config --global user.name udhos
     git config --global user.email udhos
+    git config --global credential.helper cache
     git config -l
 
 ## Clone
