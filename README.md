@@ -94,15 +94,6 @@ Example:
     git fetch pb = fetch all the information that Paul has but that you don’t yet have in your repository
     Paul’s master branch is now accessible locally as pb/master
 
-### Remote branch
-
-"It’s important to note that when you do a fetch that brings down new remote-tracking branches, you don’t automatically have local, editable copies of them. In other words, in this case, you don’t have a new serverfix branch - you only have an origin/serverfix pointer that you can’t modify. To merge this work into your current working branch, you can run git merge origin/serverfix. If you want your own serverfix branch that you can work on, you can base it off your remote-tracking branch:"
-
-    $ git fetch origin
-     * [new branch]      serverfix    -> origin/serverfix
-
-    $ git checkout -b serverfix origin/serverfix
-
 ### Inspecting remote
 
     git remote show <remote>
@@ -114,6 +105,15 @@ Example:
 ### Deleting remote
 
     git remote rm <remote>
+
+## Remote branch
+
+"It’s important to note that when you do a fetch that brings down new remote-tracking branches, you don’t automatically have local, editable copies of them. In other words, in this case, you don’t have a new serverfix branch - you only have an origin/serverfix pointer that you can’t modify. To merge this work into your current working branch, you can run git merge origin/serverfix. If you want your own serverfix branch that you can work on, you can base it off your remote-tracking branch:"
+
+    $ git fetch origin
+     * [new branch]      serverfix    -> origin/serverfix
+
+    $ git checkout -b serverfix origin/serverfix
 
 ### Tracking branches
 
@@ -132,6 +132,12 @@ Example:
     git fetch --all ;#  fetch from all your remotes 
 
     git branch -vv ;# show remote tracking
+
+### Deleting remote branch
+
+    git branch -d serverfix            ;# delete branch locally
+
+    git push origin --delete serverfix ;# delete branch from remote origin
 
 ## Fetch
 
