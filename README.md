@@ -233,6 +233,14 @@ Basic merge:
     git branch --merged    ;# which branches are already merged into the branch you’re on
     git branch --no-merged ;# branches that contain work you haven’t yet merged in
 
+## Pull
+
+    git fetch <url> ;# get all changes from server, don't modify the working dir
+
+    git pull ;# look up what server and branch your current branch is tracking, fetch from that server and then try to merge in that remote branch.
+
+"Generally it’s better to simply use the fetch and merge commands explicitly as the magic of git pull can often be confusing."
+
 ## Head
 
 A head is simply a reference to a commit object.
