@@ -115,6 +115,24 @@ Example:
 
     git remote rm <remote>
 
+### Tracking branches
+
+"When you clone a repository, it generally automatically creates a master branch that tracks origin/master."
+
+    git checkout -b serverfix origin/serverfix ;# set branch serverfix tracking remote branch serverfix from origin
+
+    git checkout --track origin/serverfix      ;# shortcut for doing the same
+
+    git checkout serverfix                     ;# even shorter
+
+    git checkout -b sf origin/serverfix        ;# set branch sf tracking remote branch serverfix from origin
+
+    git branch -u origin/serverfix             ;# set remote branch for a local branch
+
+    git fetch --all ;#  fetch from all your remotes 
+
+    git branch -vv ;# show remote tracking
+
 ## Fetch
 
     git fetch <remote>
@@ -181,7 +199,7 @@ Show branches:
 
 Show last commit from every branch:
 
-    git branch -v
+    git branch -vv
 
 Create branch:
 
