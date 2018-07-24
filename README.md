@@ -247,6 +247,20 @@ Basic merge:
 
 "Generally it’s better to simply use the fetch and merge commands explicitly as the magic of git pull can often be confusing."
 
+## Rebase
+
+Basic rebase:
+
+    git checkout experiment
+    git rebase master
+    # replayed experiment on top of master
+
+    git checkout master
+    git merge experiment
+    # master fast-forwarded to experiment
+
+Merge vs Rebase: "In general the way to get the best of both worlds is to rebase local changes you’ve made but haven’t shared yet before you push them in order to clean up your story, but never rebase anything you’ve pushed somewhere."
+
 ## Head
 
 A head is simply a reference to a commit object.
