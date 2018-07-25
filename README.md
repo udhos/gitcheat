@@ -183,6 +183,11 @@ Sharing all tags:
 
     git push origin --tags
 
+Delete tag:
+
+    git tag --delete <tagname>         ;# delete locally
+    git push --delete origin <tagname> ;# delete tag from remote
+
 ### Checking out tag
 
     git checkout v2.0.0 ;# Puts repository in "detached HEAD" state
