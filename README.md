@@ -21,29 +21,29 @@ Git clone by default creates a remote called origin: "you should at least see or
 
 "Staged means that you have marked a modified file in its current version to go into your next commit snapshot."
 
-git add - "add this content to staging area". The staging area is the full content for the next commit.
+    git add <files> ;# "add this content to staging area". The staging area is the full content for the next commit.
 
 ## Add
 
-git add - "add precisely this content to the next commit"
+    git add <files> ;# "add precisely this content to the next commit"
 
 "Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part"
 
 ## Rm
 
-git rm - remove file from working directory and also from staging area
+    git rm          ;# remove file from working directory and also from staging area
 
-git rm --cached - keep file in working directory but remove it from staging area
+    git rm --cached ;# keep file in working directory but remove it from staging area
 
 ## Diff
 
-git diff: to see what is still unstaged
+    git diff          ;# to see what is still unstaged
 
-git diff --cached: to see what you’ve staged so far (--staged and --cached are synonyms)
+    git diff --cached ;# to see what you’ve staged so far (--staged and --cached are synonyms)
 
 ## Commit
 
-git commit "records changes to the repository".
+    git commit ;# "records changes to the repository"
 
 "Git thinks about its data more like a stream of snapshots."
 
@@ -51,7 +51,7 @@ git commit appends a new snapshot into the stream.
 
 "Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part"
 
-git commit --amend: redo the last commit
+    git commit --amend ;# redo the last commit
 
     git commit -m 'message'
     git add forgotten_file
@@ -59,16 +59,16 @@ git commit --amend: redo the last commit
 
 ## Log
 
-git log "lists the commits made in that repository in reverse chronological order"
+    git log ;# "lists the commits made in that repository in reverse chronological order"
 
 ## Unstage
 
-    git add CONTRIBUTING.md        - add CONTRIBUTING.md to stage/index
-    git reset HEAD CONTRIBUTING.md - remove CONTRIBUTING.md from stage/index
+    git add CONTRIBUTING.md        ;# add CONTRIBUTING.md to stage/index
+    git reset HEAD CONTRIBUTING.md ;# remove CONTRIBUTING.md from stage/index
 
 ## Discard changes in working directory
 
-git checkout -- CONTRIBUTING.md - retrieve file from last commit, discarding changes in the working directory
+    git checkout -- CONTRIBUTING.md ;# retrieve file from last commit, discarding changes in the working directory
 
 ## Remote
 
