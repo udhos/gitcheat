@@ -287,6 +287,8 @@ A head is simply a reference to a commit object.
 
 http://marklodato.github.io/visual-git-guide/index-en.html
 
+http://onlywei.github.io/explain-git-with-d3/
+
 https://blog.osteele.com/2008/05/my-git-workflow/
 
 https://git-scm.com/book/en/v2
