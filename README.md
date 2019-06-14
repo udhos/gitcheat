@@ -1,5 +1,38 @@
 # gitcheat
 
+# Table of Contents 
+
+* [gitcheat](#gitcheat)
+  * [Config](#config)
+  * [Clone](#clone)
+  * [Index / Staging Area](#index--staging-area)
+  * [Add](#add)
+  * [Rm](#rm)
+  * [Diff](#diff)
+  * [Commit](#commit)
+  * [Log](#log)
+  * [Unstage](#unstage)
+  * [Discard changes in working directory](#discard-changes-in-working-directory)
+  * [Remote](#remote)
+    * [Inspecting remote](#inspecting-remote)
+    * [Renaming remote](#renaming-remote)
+    * [Deleting remote](#deleting-remote)
+  * [Remote branch](#remote-branch)
+    * [Tracking branches](#tracking-branches)
+    * [Deleting remote branch](#deleting-remote-branch)
+  * [Fetch](#fetch)
+  * [Push](#push)
+  * [Tag](#tag)
+    * [Checking out tag](#checking-out-tag)
+  * [Branch](#branch)
+  * [Merge](#merge)
+  * [Pull](#pull)
+  * [Rebase](#rebase)
+  * [Head](#head)
+* [References](#references)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
 ![commit](img/commit.png)
 
 ## Config
