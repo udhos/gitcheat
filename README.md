@@ -50,7 +50,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 Git clone by default creates a remote called origin: "you should at least see origin - that is the default name Git gives to the server you cloned from"
 
-## Index / Staging Area
+## Index / Staging Area / Cache
 
 "Staged means that you have marked a modified file in its current version to go into your next commit snapshot."
 
